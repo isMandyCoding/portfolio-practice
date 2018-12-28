@@ -1,37 +1,22 @@
 * {
-    margin: 0;
-    font-family: 'Arvo', serif;
-    font-size: 50px;
-    color: white;
+  margin: 0;
+  font-family: "Arvo", serif;
+  font-size: 50px;
+  color: white;
 }
 
-.segment {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 610px;
-    box-shadow: 5px 10px 18px #888888;
-}
-
-
-header>img {
-    position: absolute;
-    top:0;
-    min-height: 100%;
-    max-height:100%;
-    min-width: 100%;
-    z-index: -1;
-    
-}
-
-header > h1 {
-    z-index: 1;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .wow {
-    background-color: rgb(2, 72, 118);
+  background-color: rgb(2, 72, 118);
 }
 
 .pop {
-    background-color: rgb(0, 138, 191);    
+  background-color: rgb(0, 138, 191);
 }
